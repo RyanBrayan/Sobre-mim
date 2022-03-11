@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link rel="icon" href= "./img/color-palette-sharp.svg">
+    <title>Venha me conhecer</title>
+</head>
+    <style>
+        body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #8460ed, #ff1252);
+    
+}
+</style>
+<body>
+    <div class="palheta" onclick="">
+        <div class="pinceis" target="_blank"><ion-icon name="color-palette-outline"></ion-icon></div>
+
+        <li style="--i:0" class="pincel-verde"> 
+            <a href="divertidamente.html "   target="_blank"><ion-icon name="brush-outline"></ion-icon></a>
+        </li>
+
+        <li style="--i:1" class="pincel-branco">
+            <a href="index.html" target="_blank"><ion-icon name="brush-outline"></ion-icon></a>
+        </li>
+
+        <li style="--i:2" class="pincel-amarelo"> 
+            <a href="futuro.html" target="_blank"><ion-icon name="brush-outline" ></ion-icon></a>
+        </li>
+
+        <li style="--i:3" class="pincel-azul"> 
+            <a href="curiosidade.html" target="_blank"><ion-icon name="brush-outline" target="_blank"></ion-icon></a>
+        </li>
+
+        <li style="--i:4" class="pincel-vermelho"> 
+            <a href="momento.html" target="_blank"><ion-icon name="brush-outline" target="_blank"></ion-icon></a>
+        </li>
+
+    </div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        let pinceis = document.querySelector('.pinceis');
+        let palheta = document.querySelector('.palheta');
+        pinceis.onclick = function(){
+            palheta.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>

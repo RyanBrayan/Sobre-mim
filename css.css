@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+.palheta{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.palheta li{
+    position: absolute;
+    left: 0;
+    list-style: none;
+    transform-origin: 300px;
+    transition: 0.5s;
+    transition-delay: calc(0.1s * var(--i));
+    transform: rotate(0deg) translateX(260px);
+}
+
+.palheta.active li{
+    transform: rotate(calc(360deg / 5 * var(--i)));
+}
+
+
+.pincel-verde:hover{
+    background: rgb(21, 218, 119);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(calc(360deg / 5 * var(--i)));
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+    color: #111;
+    transition: 1s;
+}
+.pincel-branco:hover{
+    background: rgba(228, 218, 218, 0.842);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(calc(360deg / 5 * var(--i)));
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+    color: #111;
+    transition: 1s;
+}
+.pincel-amarelo:hover{
+    background: rgba(235, 235, 55, 0.932);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(calc(360deg / 5 * var(--i)));
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+    color: #111;
+    transition: 1s;
+}
+.pincel-azul:hover{
+    background: rgba(41, 41, 238, 0.952);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(calc(360deg / 5 * var(--i)));
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+    color: #111;
+    transition: 1s;
+}
+.pincel-vermelho:hover{
+    background: #f90050;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(calc(360deg / 5 * var(--i)));
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+    color: #111;
+    transition: 1s;
+}
+
+.pinceis{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.15 );
+    font-size: 2em;
+    transition: 1.25s;
+}
+.palheta.active .pinceis{
+    transform: rotate(315deg);
+}
+
+h2 {
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fotos img{
+    display: inline-block;
+    padding: 70px;
+    width: 600px;
+    width: 600px;
+}
+.naruto{
+    display: block;
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 160px;
+}

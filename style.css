@@ -1,0 +1,51 @@
+.torta{
+    color: #593420;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#fricasse{
+    color: #ffff3fd0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#pave{
+    color: #a85529b0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(./img/pexels-karolina-grabowska-4033638.jpg) ;
+
+}
+.ingredientes{
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+.preparo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff3f;
+    
+}
+#pave{
+    color: #805a45a4;
+}
+li{
+    padding-top: 5px;
+}
+li a{
+    color: white;
+    text-decoration: none;  
+    font-weight: bold;
+    padding-top: 20%;
+}
+li a:hover{
+    color: black;
+}
+ul{
+    width: 20%;
+}

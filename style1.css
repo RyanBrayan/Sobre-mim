@@ -1,0 +1,49 @@
+
+.Bolo{
+    text-transform: uppercase;
+    color: #ff6a28;
+    font-size: 23px;
+    font-weight: 600;
+}
+.frango{
+    text-transform: uppercase;
+    color: #ff6a28;
+    font-size: 23px;
+    font-weight: 600;
+}
+.maracuja{
+    text-transform: uppercase;
+    color: #eb6d37f5;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+body{
+    background: rgb(145, 144, 144);
+    background-image: url(./img/pexels-rodnae-productions-8581015\ \(1\).jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}   
+
+.receita{
+    font-family: 'Bebas Neue', cursive;
+
+}
+li{
+    padding-top: 5px;
+}
+li a{
+    color: white;
+    text-decoration: none;  
+    font-weight: bold;
+    padding-top: 20%;
+}
+li a:hover{
+    color: black;
+}
+ul{
+    width: 20%;
+}
+
+
